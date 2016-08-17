@@ -3,7 +3,7 @@ require "formula"
 class GrOsmosdr < Formula
   homepage "http://sdr.osmocom.org/trac/wiki/GrOsmoSDR"
   url "http://cgit.osmocom.org/gr-osmosdr/snapshot/gr-osmosdr-0.1.4.tar.gz"
-  sha1 "ffc684a8255e0750390b0d4fb48421c989babc67"
+  sha256 "1945d0d98fd4b600cb082970267ec2041528f13150422419cbd7febe2b622721"
 
   depends_on "cmake" => :build
   depends_on :python
