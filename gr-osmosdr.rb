@@ -4,7 +4,7 @@ class GrOsmosdr < Formula
   homepage "http://sdr.osmocom.org/trac/wiki/GrOsmoSDR"
    head 'git://git.osmocom.org/gr-osmosdr', :branch => 'master', :shallow => false
   url "http://cgit.osmocom.org/gr-osmosdr/snapshot/gr-osmosdr-0.1.4.tar.gz"
-  sha256 "1945d0d98fd4b600cb082970267ec2041528f13150422419cbd7febe2b622721"
+  sha256 "59bb389431f72545f3ac51b87ceb98f3ba0591a1941f456ac4e67efb2ddb648c"
 
   depends_on "cmake" => :build
   depends_on :python
